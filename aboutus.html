@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Lakki+Reddy&family=Otomanopee+One&display=swap" rel="stylesheet">
+    <title>About Us</title>
+  </head>
+  <style>
+      
+      body {
+     /* margin: 0;
+     padding: 0; */
+     font-family: "Roboto", sans-serif;
+     background-image: url(im0\ \(1\).jpg);
+     background-size: cover;
+     /* background-attachment: fixed;
+     user-select: none; */
+     margin: 0px;
+     padding: 0px;
+     background-color: black;
+}
+
+
+        body:hover{
+            cursor:pointer;
+        }
+        .navbar li{
+            list-style: none;
+            text-align: end;
+        }
+        .navbar{
+            display: flex;
+            border-radius: 15px;
+            align-items: center;
+            justify-content:flex-end;
+            justify-content:space-evenly;
+            padding-top: 1rem;
+
+            
+            
+        }
+        .navbar li a{
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            text-align: end;
+            /* padding-right: 6rem;
+            padding-left: 1rem; */
+            /* text-align: center; */
+            font-family: 'Righteous', cursive;
+            transition-property: background-color;
+            transition: all .8s;
+            
+        }
+        li:nth-child(3){
+            background-color: rgb(255, 17, 0);
+            border-radius: 1.6rem;
+            padding: 0.2rem;
+            transition-property: background-color;
+            transition: background-color .8s ;
+        }
+        li:nth-child(3):hover{
+            /* background-color: rgb(255, 17, 0); */
+            border-radius: 1.6rem;
+            padding: 0.2rem;
+            background-color: black;
+        }
+        
+        .navbar li a:hover{
+            font-size: 2rem;
+            /* background-color: rgb(255, 17, 0); */
+            border: 0.2rem solid red;
+            /* text-decoration: line-through; */
+            /* color: black; */
+            transform: rotateX(45deg);
+            padding: 0.2rem;
+            border-radius: 1.4rem;
+        }
+.ourteam{
+    margin: 80px 0;
+    
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: #fbffff;
+    /* padding-bottom:  */
+    font-family: 'Merienda', cursive;
+}
+h1::after
+{
+  content: '';
+  background: rgb(0, 132, 255);
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 20px auto;
+
+}
+
+#team {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: #fffffff1;
+  border-radius: 10px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 8.9px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .image {
+  width: 170px;
+  height: 172px;
+  background-color:rgb(90, 173, 255);
+  margin: 30px;
+  border-radius: 13%;
+  border: 3px rgb(219, 204, 64);
+}
+
+.card .info {
+  border-bottom: 1.9px solid #04c790;
+  margin: 0 15px 0 15px;
+}
+
+.card .info h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card .info p1 {
+  margin-top: 1px;
+  padding: 0;
+  height: 100;
+  width: 100%;
+  font-weight: bold;
+  text-align: inherit;
+  color: rgb(0, 0, 0);
+}
+.card .info p2{
+  margin-top: 2px;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.card .social {
+  width: 250px;
+  height: 200px;
+  color: #0fc790;
+  margin: 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+.card .social li:hover {
+  transition: 1.5s;
+  color: #000;
+}
+.card .social a:hover {
+  transition: 1.5s;
+  color: #000;
+}
+.social a{
+  color: #0fc790;
+}
+h3{
+  font-family: 'Fuggles', cursive;
+  font-size: 55px;
+}
+  </style>
+  <body>
+    <div class="navbar">
+      <li id="sel"> <a href="index.html">Home </a> </li>
+      <li> <a href="about_event.html">About Event </a> </li>
+      <li> <a href="aboutus.html">About us </a> </li>
+      <li> <a href="">Contact us </a> </li>
+  </div>
+      <section class="ourteam">
+          <div class="container">
+              <h1>Our Team</h1>
+          </div>
+      </section>
+    <section id="team">
+      <div class="card">
+        <div>
+          <img class="image" src="im1 (1).png">
+        </div>
+        <div class="info">
+          <h3>Nasir Shamim</h3>
+          <p1>
+            Web Developer 
+          </p1>
+          <br/>
+          <p2>
+            Haldia Institute of Technology.
+          </p2>
+        </div>
+        <ul class="social">
+          <li><i class="fab fa-facebook fa-2x"></i></li>
+          <li><i class="fab fa-twitter fa-2x"></i></li>
+          <a href="http://www.instagram.com/nasirshamim_/"><li><i class="fab fa-instagram fa-2x"></i></li></a>
+          <li><i class="fab fa-linkedin fa-2x"></i></li>
+        </ul>
+      </div>
+      <div class="card">
+        <div>
+          <img class="image" src="im2 (1).jpeg">
+        </div>
+        <div class="info">
+          <h3>Zeeshan Ali</h3>
+          <p1>
+            Web Developer
+          </p1>
+          <br/>
+          <p2>
+            Haldia Institute of Technology.
+          </p2>
+        </div>
+        <ul class="social">
+          <li><i class="fab fa-facebook fa-2x"></i></li>
+          <li><i class="fab fa-twitter fa-2x"></i></li>
+          <a href="https://instagram.com/zeeshanali_7/"><li><i class="fab fa-instagram fa-2x"></i></li></a>
+          <li><i class="fab fa-linkedin fa-2x"></i></li>
+        </ul>
+      </div>
+      
+    </section>
+  </body>
+</html>
